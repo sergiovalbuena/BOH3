@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prep List - FireBase</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <form action="" id="task-form" class="taskForm">
+      <h1>🌮 Prep List 🌯</h1>
+      <p>Please input the actual quantity of each one</p>
+
+      <!-- <label for="title">Title :</label>
+      <input type="text" placeholder="Task Title" id="task-title" /> -->
+
+      <br />
+
+      <label for="picoDeGallo">Pico de Gallo 🍅🧅🌿</label>
+      <input
+        id="picoDeGallo"
+        type="number"
+        pattern="[0-9]*"
+        inputmode="numeric"
+        placeholder="Containers"
+      /><br />
+
+      <label for="avocado">Avocado Base 🥑</label>
+      <input
+        id="avocado"
+        type="number"
+        pattern="[0-9]*"
+        inputmode="numeric"
+        placeholder="Containers"
+      /><br />
+
+      <label for="picoDeGalloPastor">Pico de Gallo Pastor🍍🧅🌿</label>
+      <input
+        id="picoDeGalloPastor"
+        type="number"
+        pattern="[0-9]*"
+        inputmode="numeric"
+        placeholder="Containers"
+      /><br />
+
+      <label for="onionCilantro">Onion and Cilantro 🧅🌿</label>
+      <input
+        id="onionCilantro"
+        type="number"
+        pattern="[0-9]*"
+        inputmode="numeric"
+        placeholder="Liters"
+      /><br />
+
+      <label for="cilantro">Cilantro 🌿</label>
+      <input
+        id="cilantro"
+        type="number"
+        pattern="[0-9]*"
+        inputmode="numeric"
+        placeholder="Liters"
+      /><br />
+
+      <label for="pickledOnion">Pickled Onion 💜🧅 </label>
+      <input
+        id="pickledOnion"
+        type="number"
+        pattern="[0-9]*"
+        inputmode="numeric"
+        placeholder="Liters"
+      /><br />
+
+      <label for="fetaCheese">Feta Cheese 🤍</label>
+      <input
+        id="fetaCheese"
+        type="number"
+        pattern="[0-9]*"
+        inputmode="numeric"
+        placeholder="Liters"
+      /><br />
+
+      <label for="mozza1l">Mozza 1lt 🧀 Container</label>
+      <input
+        id="mozza1l"
+        type="number"
+        pattern="[0-9]*"
+        inputmode="numeric"
+        placeholder="Liter"
+      />
+      <br />
+
+      <label for="lettuce">Chopped Lettuce 🥬</label>
+      <input
+        id="lettuce"
+        type="number"
+        pattern="[0-9]*"
+        inputmode="numeric"
+        placeholder="Contanier"
+      /><br />
+
+      <label for="cabagge">Cagabe Slaw 🥗</label>
+      <input
+        id="cabagge"
+        type="number"
+        pattern="[0-9]*"
+        inputmode="numeric"
+        placeholder="Container"
+      /><br />
+
+      <label for="birriamenOnion">Birriamen Onion 🍜🧅</label>
+      <input
+        id="birriamenOnion"
+        type="number"
+        pattern="[0-9]*"
+        inputmode="numeric"
+        placeholder="How full(%) is the Liter?"
+      /><br />
+
+      <label for="noodles"
+        >Noodles 🍜
+        <h6>is there noodles back up?</h6></label
+      >
+      <input type="checkbox" id="noodles" class="input" />
+      <span class="checkmark"></span>
+      <br />
+
+      <label for="birriaTaco">Birria Tacos 🌮</label>
+      <input
+        id="birriaTaco"
+        type="number"
+        pattern="[0-9]*"
+        inputmode="numeric"
+        placeholder="How many Birria Tacos are there?"
+      />
+      <br />
+
+      <label for="limes">Limes 🍋</label>
+      <input
+        id="limes"
+        type="number"
+        pattern="[0-9]*"
+        inputmode="numeric"
+        placeholder="How full(%) is the container?"
+      />
+      <br />
+
+      <label for="paprika">Paprika and Salt mix 🧂 </label>
+      <input
+        id="paprika"
+        type="number"
+        pattern="[0-9]*"
+        inputmode="numeric"
+        placeholder="How full (%) is the container?"
+      />
+      <br />
+
+      <label for="cinnamon">Cinnamon and Sugar </label>
+      <input
+        id="cinnamon"
+        type="number"
+        pattern="[0-9]*"
+        inputmode="numeric"
+        placeholder="How full (%) is the container?"
+      /><br />
+
+      <h3>Bottles</h3>
+
+      <label for="anchoBottle">Ancho Miel </label>
+      <input
+        id="anchoBottle"
+        type="number"
+        pattern="[0-9]*"
+        inputmode="numeric"
+        placeholder="Bottles"
+      />
+      <br />
+
+      <label for="chipotle">Chipotle Mayo</label>
+      <input
+        id="chipotle"
+        type="number"
+        pattern="[0-9]*"
+        inputmode="numeric"
+        placeholder="Bottles"
+      />
+      <br />
+
+      <label for="cream">Cream</label>
+      <input
+        id="cream"
+        type="number"
+        pattern="[0-9]*"
+        inputmode="numeric"
+        placeholder="Bottles"
+      />
+      <br />
+
+      <label for="beans">Beans Bottle</label>
+      <input
+        id="beans"
+        type="number"
+        pattern="[0-9]*"
+        inputmode="numeric"
+        placeholder="Bottles"
+      />
+      <br />
+
+      <label for="botanera">Botanera</label>
+      <input
+        id="botanera"
+        type="number"
+        pattern="[0-9]*"
+        inputmode="numeric"
+        placeholder="Bottles"
+      />
+      <label for="poblano">Poblano</label>
+      <input
+        id="poblano"
+        type="number"
+        pattern="[0-9]*"
+        inputmode="numeric"
+        placeholder="Bottles"
+      />
+      <br />
+      <label for="tartara">Tartara</label>
+      <input
+        id="tartara"
+        type="number"
+        pattern="[0-9]*"
+        inputmode="numeric"
+        placeholder="Bottles"
+      />
+      <br />
+      <label for="habanera">Habanera</label>
+      <input
+        id="habanera"
+        type="number"
+        pattern="[0-9]*"
+        inputmode="numeric"
+        placeholder="Bottles"
+      />
+      <br />
+      <label for="guajillo">Guajillo</label>
+      <input
+        id="guajillo"
+        type="number"
+        pattern="[0-9]*"
+        inputmode="numeric"
+        placeholder="Bottles"
+      />
+      <label for="arbol">Arbol</label>
+      <input
+        id="arbol"
+        type="number"
+        pattern="[0-9]*"
+        inputmode="numeric"
+        placeholder="Bottles"
+      />
+      <br />
+      <label for="adobo">Adobo Pastor</label>
+      <input
+        id="adobo"
+        type="number"
+        pattern="[0-9]*"
+        inputmode="numeric"
+        placeholder="Bottles"
+      />
+      <br />
+      <label for="cajeta">Cajeta</label>
+      <input
+        id="cajeta"
+        type="number"
+        pattern="[0-9]*"
+        inputmode="numeric"
+        placeholder="Bottles"
+      />
+      <br />
+
+      <label for="dryOnion"
+        >Dry Onion and Cabbage 🧅🥬
+        <h6>is there Dry Onion and Cabagge back up?</h6></label
+      >
+      <input type="checkbox" id="dryOnion" class="input" />
+      <span class="checkmark"></span>
+      <br />
+
+      <h3>Proteins</h3>
+      <label for="crispy">Crispy Chicken 🍗</label>
+
+      <input type="checkbox" id="crispy" class="input" />
+
+      <br />
+
+      <label for="tuna">Tuna 🐟</label>
+      <div class="row">
+        <input type="checkbox" id="tuna" class="input" />
+      </div>
+      <br />
+
+      <label for="special">Special 👾</label>
+      <div class="row">
+        <input type="checkbox" id="special" class="input" />
+      </div>
+      <br />
+
+      <label for="cauli">Cauliflower 🥦</label>
+      <div class="row">
+        <input type="checkbox" id="cauli" class="input" />
+        <input type="checkbox" id="cauli2" class="input" />
+        <input type="checkbox" id="cauli3" class="input" />
+      </div>
+
+      <label for="baja">Fish Baja 🎣</label>
+      <div class="row">
+        <input type="checkbox" id="baja" class="input" />
+        <input type="checkbox" id="baja2" class="input" />
+        <input type="checkbox" id="baja3" class="input" />
+        <!-- <input type="checkbox" id="fish4" class="input" /> -->
+      </div>
+      <br />
+
+      <label for="cabo">Cabo 🍤</label>
+      <div class="row">
+        <input type="checkbox" id="cabo" class="input" />
+        <input type="checkbox" id="cabo2" class="input" />
+        <input type="checkbox" id="cabo3" class="input" />
+      </div>
+      <br />
+
+      <label for="asada">Asada 🥩🐄</label>
+      <div class="row">
+        <input type="checkbox" id="asada" class="input" />
+        <input type="checkbox" id="asada2" class="input" />
+        <input type="checkbox" id="asada3" class="input" />
+      </div>
+      <br />
+
+      <label for="pastor">Pork 🥩🐖</label>
+      <div class="row">
+        <input type="checkbox" id="pastor" class="input" />
+        <input type="checkbox" id="pastor2" class="input" />
+        <input type="checkbox" id="pastor3" class="input" />
+      </div>
+      <br />
+
+      <button class="calcBtn">Save</button>
+
+      <button class="deleteBtn" type="reset">Delete</button>
+    </form>
+
+    <div id="task-container"></div>
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
